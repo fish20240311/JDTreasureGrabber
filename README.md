@@ -42,6 +42,16 @@
   ```
       npm i
   ```
+  - 重新安装依赖，删除现有的 node_modules 和 package-lock.json 文件
+  ```
+      rm -rf node_modules package-lock.json
+  ```
+  - 更改 npm 缓存目录，如果默认缓存目录存在问题，可以将其更改为其他路径
+  ```
+     npm config set cache "C:\\Users\\<你的用户名>\\npm-cache" --global
+  ```
+     
+  
 - 启动服务，可在本地浏览器上进行 UI 调试
   ```
       npm run serve
