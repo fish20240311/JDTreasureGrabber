@@ -38,7 +38,8 @@
   ```
   npm config set registry https://registry.npmmirror.com
   ```
-  - 安装依赖
+  - 安装依赖，如果要打印安装过程使用：npm install -g yarn
+     
   ```
       npm i
   ```
@@ -50,8 +51,11 @@
   ```
      npm config set cache "C:\\Users\\<你的用户名>\\npm-cache" --global
   ```
-     
-  
+  - 试使用 Yarn，如果 npm 仍然无法正常工作，可以尝试使用 Yarn 安装依赖：安装 Yarn：   
+    ```
+         npm install -g yarn
+    ```
+    
 - 启动服务，可在本地浏览器上进行 UI 调试
   ```
       npm run serve
